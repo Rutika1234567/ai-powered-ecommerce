@@ -1,0 +1,219 @@
+<web-app>
+
+<servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.ecommerce.controller.LoginServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>RegisterServlet</servlet-name>
+  <servlet-class>com.ecommerce.controller.RegisterServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>RegisterServlet</servlet-name>
+  <url-pattern>/RegisterServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>CartServlet</servlet-name>
+  <servlet-class>com.ecommerce.controller.CartServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>CartServlet</servlet-name>
+  <url-pattern>/CartServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>OrderServlet</servlet-name>
+  <servlet-class>com.ecommerce.controller.OrderServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>OrderServlet</servlet-name>
+  <url-pattern>/OrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>AdminServlet</servlet-name>
+  <servlet-class>com.ecommerce.controller.AdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>AdminServlet</servlet-name>
+  <url-pattern>/AdminServlet</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+  <welcome-file>ProductServlet</welcome-file>
+</welcome-file-list>
+
+
+<servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.ProductServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/ProductServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>BuyNowServlet</servlet-name>
+<servlet-class>com.ecommerce.controller.BuyNowServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>BuyNowServlet</servlet-name>
+<url-pattern>/BuyNowServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>CancelOrderServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.CancelOrderServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>CancelOrderServlet</servlet-name>
+    <url-pattern>/CancelOrderServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>UpdateOrderStatusServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.UpdateOrderStatusServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateOrderStatusServlet</servlet-name>
+    <url-pattern>/UpdateOrderStatusServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.LogoutServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/LogoutServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>SellerRegisterServlet</servlet-name>
+    <servlet-class>com.ecommerce.seller.SellerRegisterServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SellerRegisterServlet</servlet-name>
+    <url-pattern>/SellerRegisterServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>SellerLoginServlet</servlet-name>
+    <servlet-class>com.ecommerce.seller.SellerLoginServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>SellerLoginServlet</servlet-name>
+    <url-pattern>/SellerLoginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>SellerAddProductServlet</servlet-name>
+  <servlet-class>com.ecommerce.seller.SellerAddProductServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>SellerAddProductServlet</servlet-name>
+  <url-pattern>/SellerAddProductServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>SellerLogoutServlet</servlet-name>
+  <servlet-class>com.ecommerce.seller.SellerLogoutServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>SellerLogoutServlet</servlet-name>
+  <url-pattern>/SellerLogoutServlet</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+    <servlet-name>UpdateCartServlet</servlet-name>
+    <servlet-class>com.ecommerce.controller.UpdateCartServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>UpdateCartServlet</servlet-name>
+    <url-pattern>/UpdateCartServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+<servlet-name>PaymentServlet</servlet-name>
+<servlet-class>com.ecommerce.controller.PaymentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+<servlet-name>PaymentServlet</servlet-name>
+<url-pattern>/PaymentServlet</url-pattern>
+</servlet-mapping>
+
+
+
+
+<servlet>
+    <servlet-name>AgentServlet</servlet-name>
+    <servlet-class>com.ecommerce.ai.AgentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>AgentServlet</servlet-name>
+    <url-pattern>/AgentServlet</url-pattern>
+</servlet-mapping>
+
+
+
+
+
+
+<servlet>
+    <servlet-name>initiate</servlet-name>
+    <servlet-class>com.paytm.InitiatePaymentServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>initiate</servlet-name>
+    <url-pattern>/initiate</url-pattern>
+</servlet-mapping>
+
+
+
+<servlet>
+    <servlet-name>fakePaytm</servlet-name>
+    <servlet-class>com.paytm.FakePaytmServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>fakePaytm</servlet-name>
+    <url-pattern>/fakePaytm</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+    <servlet-name>callback</servlet-name>
+    <servlet-class>com.paytm.CallbackServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>callback</servlet-name>
+    <url-pattern>/callback</url-pattern>
+</servlet-mapping>
+
+</web-app>
