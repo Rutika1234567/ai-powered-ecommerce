@@ -1,0 +1,182 @@
+/* ===== LOGIN PAGE ===== */
+.login-page {
+    min-height: 100vh;
+    background: url("../images/products/ecommerce.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Single login box */
+.login-card {
+    width: 420px;
+    padding: 35px 40px;
+    border-radius: 12px;
+
+    /* faint blue that suits background */
+    background: rgba(230, 243, 255, 0.95);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+/* Headings */
+.login-card h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.login-card p {
+    margin-bottom: 22px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Form */
+.login-card label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button */
+.login-card button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+/* Footer */
+.login-footer {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+
+/* =====================================================
+   LOGIN PAGE ONLY
+   ===================================================== */
+
+.login-page {
+    min-height: 100vh;
+    background: url("../images/products/ecommerce.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .login-card {
+    width: 420px;
+    padding: 35px 40px;
+    border-radius: 12px;
+
+    /* faint blue card */
+    background: rgba(230, 243, 255, 0.95);
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    text-align: center;
+}
+
+.login-page .login-card h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.login-page .login-card p {
+    margin-bottom: 22px;
+    color: #555;
+    line-height: 1.5;
+}
+
+.login-page .login-card label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.login-page .login-card input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-page .login-card button {
+    width: 100%;
+    margin-top: 25px;
+    padding: 12px;
+    background-color: #3498db;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.login-page .login-footer {
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+/* =====================================================
+   INDEX / WELCOME PAGE ONLY
+   ===================================================== */
+
+.home-page {
+    min-height: 100vh;
+    background: url("../images/products/register.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-page .home-card {
+    width: 460px;
+    padding: 40px;
+    border-radius: 14px;
+
+    background: rgba(230, 243, 255, 0.95);
+
+    box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+    text-align: center;
+}
+
+.home-page .home-card h1 {
+    color: #2c3e50;
+    margin-bottom: 12px;
+}
+
+.home-page .home-card p {
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.home-page .home-buttons a {
+    display: inline-block;
+    padding: 12px 26px;
+    margin: 0 8px;
+    border-radius: 6px;
+
+    background: linear-gradient(135deg, #2f80ed, #56ccf2);
+    color: white;
+    font-weight: 600;
+}

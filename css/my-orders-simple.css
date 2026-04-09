@@ -1,0 +1,59 @@
+/* ===== MY ORDERS (SIMPLE PAGE) ===== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.orders-container {
+    max-width: 800px;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.orders-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #0b3c5d;
+}
+
+.order-row {
+    padding: 15px;
+    border-bottom: 1px solid #e6e6e6;
+    font-size: 15px;
+}
+
+.order-row:last-child {
+    border-bottom: none;
+}
+
+.order-id {
+    font-weight: bold;
+    color: #0b3c5d;
+}
+
+.order-total {
+    color: #27ae60;
+    font-weight: 600;
+}
+
+.order-status {
+    font-weight: bold;
+}
+
+.status-cancelled {
+    color: #e74c3c;
+}
+
+.status-placed {
+    color: #f39c12;
+}
+
+.status-delivered {
+    color: #27ae60;
+}

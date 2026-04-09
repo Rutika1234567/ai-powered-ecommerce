@@ -1,0 +1,60 @@
+.register {
+    min-height: 100vh;
+    background: url("../images/products/register.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Page base */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center the form */
+form {
+    width: 400px;
+    margin: 120px auto;
+    background: #ffffff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Labels text (Name:, Email:, Password:) */
+form {
+    color: #333;
+    font-size: 15px;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0 16px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #0d6efd;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Button hover */
+form button:hover {
+    background: #0b5ed7;
+}

@@ -1,0 +1,277 @@
+
+
+
+
+/* ===== HEADER ===== */
+
+.shop-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 28px;
+    background: #ffffff;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 25px;
+}
+
+/* Logo */
+.shop-logo {
+    font-size: 28px;
+    font-weight: 700;
+    color: #0b3c5d; /* dark blue */
+}
+
+/* Search */
+.shop-search {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 50%;
+}
+
+.shop-search input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.shop-search button {
+    padding: 10px 18px;
+    background: #0b3c5d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Icon menu */
+.shop-icons {
+    display: flex;
+    gap: 26px;
+}
+
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0b3c5d;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.icon-item .material-icons-outlined {
+    font-size: 26px;
+    margin-bottom: 3px;
+}
+
+.icon-item:hover {
+    color: #06293d;
+}
+
+.icon-label {
+    font-weight: 600;
+}
+
+
+.seller-link {
+    font-weight: bold;
+    color: #0a66c2;
+}
+
+.seller-link:hover {
+    text-decoration: underline;
+}
+
+
+
+#voiceBtn{
+    background:#ff4d4d;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+
+    display:flex;              /* align icon */
+    align-items:center;
+    justify-content:center;
+
+    width:44px;                /* fixed square */
+    height:44px;
+
+    font-size:18px;            /* smaller icon */
+    color:white;
+}
+
+#voiceBtn:hover{
+    background:#e60000;
+}
+
+
+
+
+
+
+/* AI Outfit Finder Button */
+.ai-agent-btn{
+    background-color:#0f3a5c;
+    color:white;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:14px;
+    margin-left:10px;
+
+    display:inline-flex;      /* important */
+    align-items:center;
+    justify-content:center;
+
+    white-space:nowrap;       /*  prevents breaking */
+}
+
+.ai-agent-btn:hover{
+    background-color:#0c2d47;
+}
+
+
+
+
+
+
+.main-container {
+    display: flex;
+    align-items: flex-start;   /* 🔥 prevents stretching */
+    flex: 1; 
+}
+
+
+/* FIX FILTER WIDTH (LOCK IT) */
+.filters {
+    width: 260px;
+    min-width: 260px;   /* 🔥 VERY IMPORTANT */
+    background: white;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+}
+/* Make filters vertical */
+.filters form {
+    display: flex;
+    flex-direction: column;
+}
+
+.filters label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.filters select,
+.filters input {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+/* ===== PRODUCT GRID (FINAL CLEAN) ===== */
+/* ===== FINAL PRODUCT FIX ===== */
+/* ===== MAIN LAYOUT ===== */
+
+.main-container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+/* ===== FILTER SIDEBAR ===== */
+
+.filters {
+    width: 260px;
+    min-width: 260px;
+    background: #fff;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* ===== PRODUCT SECTION ===== */
+
+.product-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+    align-content: start;   /* 🔥 VERY IMPORTANT */
+}
+
+/* ===== PRODUCT CARD ===== */
+
+.product-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+/* REAL CARD */
+.product {
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+
+    transition: 0.2s ease;
+}
+
+/* HOVER */
+.product:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* IMAGE */
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* INFO */
+.product-info {
+    padding: 10px;
+}
+
+/* TITLE */
+.product-info h3 {
+    font-size: 14px;
+    color: #444;
+    margin: 0 0 5px 0;
+
+    height: 34px;
+    overflow: hidden;
+}
+
+/* PRICE */
+.product-info p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* RATING */
+.rating {
+    display: inline-block;
+    background: #038d63;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+

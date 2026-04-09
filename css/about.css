@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Banner */
+.about-banner {
+    background-color: #5c7285;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-banner p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Two column sections */
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 10%;
+    background: white;
+}
+
+.about-box {
+    width: 45%;
+}
+
+.about-box h2 {
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.about-box p {
+    line-height: 1.6;
+}
+
+/* Highlight strip */
+.highlight-strip {
+    background-color: #4b6273;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.highlight-strip h2 {
+    margin-bottom: 15px;
+}
+
+/* Brands Section */
+.brands-section {
+    padding: 60px 10%;
+    background: #fafafa;
+    text-align: center;
+}
+
+.brands-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.brand {
+    background: white;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.brand:hover {
+    transform: translateY(-5px);
+}
+
+/* Features bottom */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 10%;
+    background: white;
+    border-top: 1px solid #ddd;
+}
+
+.feature-box h3 {
+    text-align: center;
+    font-weight: 600;
+}

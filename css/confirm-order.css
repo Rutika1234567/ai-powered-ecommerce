@@ -1,0 +1,67 @@
+/* ===== CONFIRM ORDER PAGE ===== */
+
+body {
+    background-color: #f4f6f9;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.confirm-box {
+    max-width: 420px;
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+.confirm-box h2 {
+    margin-bottom: 25px;
+    color: #0b3c5d;
+}
+
+.confirm-details {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.confirm-details p {
+    font-size: 16px;
+    margin: 12px 0;
+    color: #333;
+}
+
+.confirm-details span {
+    font-weight: 600;
+    color: #0b3c5d;
+}
+
+.confirm-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.buy-now-btn {
+    padding: 12px;
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.buy-now-btn:hover {
+    background-color: #219150;
+}
+
+.cancel-link {
+    text-decoration: none;
+    color: #0b3c5d;
+    font-weight: 600;
+}
+
+.cancel-link:hover {
+    text-decoration: underline;
+}

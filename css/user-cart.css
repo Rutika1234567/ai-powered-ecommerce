@@ -1,0 +1,247 @@
+/* ================= CART LAYOUT ================= */
+
+.container{
+max-width:1000px;
+margin:auto;
+background:#f5f5f5;
+padding:30px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.08);
+}
+
+.page-title{
+    text-align:center;
+    margin-bottom:25px;
+    font-size:28px;
+    color:#333;
+    width:100%;
+}
+
+/* ================= TABLE ================= */
+
+.cart-table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+.cart-table th{
+padding:12px;
+text-align:center;
+font-size:18px;
+color:#333;
+}
+
+.cart-table td{
+padding:15px;
+text-align:center;
+vertical-align:middle;
+font-size:16px;
+}
+
+/* ================= PRODUCT ================= */
+
+.cart-product{
+display:flex;
+align-items:center;
+gap:12px;
+}
+
+.cart-product img{
+width:70px;
+height:70px;
+object-fit:cover;
+border-radius:6px;
+}
+
+/* ================= BUTTONS ================= */
+
+.remove-btn{
+background:#dc3545;
+color:white;
+border:none;
+padding:6px 14px;
+border-radius:4px;
+cursor:pointer;
+font-size:14px;
+}
+
+.remove-btn:hover{
+background:#b52a37;
+}
+
+.share-btn{
+background:#0d6efd;
+color:white;
+border:none;
+padding:6px 14px;
+border-radius:4px;
+cursor:pointer;
+font-size:14px;
+margin-left:6px;
+}
+
+.share-btn:hover{
+background:#0b5ed7;
+}
+
+/* ================= TOTAL ================= */
+
+.cart-total-row td{
+font-size:18px;
+font-weight:bold;
+padding-top:20px;
+}
+
+/* ================= LINKS ================= */
+
+.cart-actions{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.back-link{
+    background:#0d6efd;
+    color:#fff;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:16px;
+    display:inline-block;
+}
+
+.back-link:hover{
+    background:#0b5ed7;
+}
+
+.checkout-btn{
+    background:#0d6efd;
+    color:#fff;
+    padding:10px 18px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:16px;
+    display:inline-block;
+}
+
+.checkout-btn:hover{
+    background:#0b5ed7;
+}
+
+/* ================= SHARE MODAL ================= */
+
+.share-modal{
+display:none;
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+z-index:9999;
+}
+
+/* POPUP */
+
+.share-box{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:white;
+width:480px;
+border-radius:10px;
+box-shadow:0 6px 30px rgba(0,0,0,0.25);
+overflow:hidden;
+}
+
+/* HEADER */
+
+.share-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 22px;
+background:#f5f5f5;
+border-bottom:1px solid #e5e5e5;
+}
+
+.share-header h3{
+font-size:20px;
+margin:0;
+}
+
+.close-btn{
+font-size:22px;
+cursor:pointer;
+}
+
+/* ICONS */
+
+.share-icons{
+display:flex;
+justify-content:center;
+gap:40px;
+padding:30px 20px;
+}
+
+.share-item{
+text-decoration:none;
+text-align:center;
+color:#333;
+font-size:14px;
+}
+
+.share-item i{
+width:60px;
+height:60px;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:26px;
+background:#f2f2f2;
+margin-bottom:8px;
+border:1px solid #ddd;
+}
+
+.bxl-whatsapp{color:#25D366;}
+.bx-envelope{color:#000;}
+.bxl-instagram{color:#E1306C;}
+
+.share-item i:hover{
+background:#eaeaea;
+}
+
+/* COPY LINK */
+
+.share-link{
+display:flex;
+align-items:center;
+gap:10px;
+padding:20px;
+border-top:1px solid #eee;
+}
+
+.share-link input{
+flex:1;
+padding:10px;
+border-radius:20px;
+border:1px solid #ccc;
+background:#f8f8f8;
+}
+
+.share-link button{
+padding:8px 18px;
+border-radius:20px;
+border:1px solid #ccc;
+background:#fff;
+cursor:pointer;
+color: #0d6efd;
+}
+
+.share-link button:hover{
+background:#f0f0f0;
+}

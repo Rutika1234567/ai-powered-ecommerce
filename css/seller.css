@@ -1,0 +1,546 @@
+/* ==============================
+   SELLER PANEL - PROFESSIONAL UI
+============================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #e9f0f8 0%, #dfe9f3 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* ==============================
+   MAIN SELLER CARD (CENTERED)
+============================== */
+
+.seller-container {
+    max-width: 800px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 35px 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 35px rgba(10,61,98,0.15);
+}
+
+/* Page titles */
+.seller-container h1,
+.seller-container h2 {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 25px;
+    font-size: 26px;
+    border-bottom: 2px solid #e6eef5;
+    padding-bottom: 12px;
+}
+
+/* Welcome text */
+.seller-welcome {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+/* ==============================
+   DASHBOARD MENU (CARDS)
+============================== */
+
+.seller-menu {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+}
+
+.seller-menu a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background: linear-gradient(135deg, #0a3d62, #0b5c8a);
+    color: #ffffff;
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    box-shadow: 0 6px 16px rgba(10,61,98,0.3);
+    transition: all 0.25s ease;
+}
+
+.seller-menu a:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 28px rgba(10,61,98,0.45);
+}
+
+/* ==============================
+   ADD PRODUCT FORM (CARD STYLE)
+============================== */
+
+.seller-form {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+}
+
+.seller-form label {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.seller-form input,
+.seller-form select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.2s;
+    background: #f9fbfd;
+}
+
+.seller-form input:focus,
+.seller-form select:focus {
+    border-color: #0a3d62;
+    box-shadow: 0 0 0 3px rgba(8, 57, 91, 0.1);
+    background: #ffffff;
+}
+
+/* Add Product Button */
+.seller-form button {
+    margin-top: 20px;
+    padding: 14px;
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 6px 18px rgba(39,174,96,0.35);
+}
+
+.seller-form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 26px rgba(39,174,96,0.45);
+}
+
+/* ==============================
+   SELLER PRODUCTS TABLE (CENTERED)
+============================== */
+
+.seller-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+    font-size: 14px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 22px rgba(10,61,98,0.12);
+}
+
+.seller-table th {
+    background: linear-gradient(90deg, #0a3d62, #0b5c8a);
+    color: #ffffff;
+    padding: 14px 10px;
+    font-weight: 700;
+}
+
+.seller-table td {
+    padding: 12px 10px;
+    border-bottom: 1px solid #eee;
+    text-align: center;
+    background: #ffffff;
+}
+
+.seller-table tr:nth-child(even) td {
+    background: #f4f8fc;
+}
+
+.seller-table tr:hover td {
+    background: #eaf2f9;
+}
+
+.seller-table img {
+    width: 80px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+/* ==============================
+   BACK LINKS & LOGOUT
+============================== */
+
+.seller-back,
+.seller-logout {
+    display: inline-block;
+    margin-top: 25px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+/* Back button */
+.seller-back {
+    background: #bdc3c7;
+    color: #2c3e50;
+}
+
+.seller-back:hover {
+    background: #aab3b8;
+}
+
+/* Logout button */
+.seller-logout {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #ffffff;
+    box-shadow: 0 6px 16px rgba(231,76,60,0.35);
+}
+
+.seller-logout:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 26px rgba(231,76,60,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+   GLOBAL SELLER PANEL
+============================== */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(180deg, #e9f0f8 0%, #dfe9f3 100%);
+    margin: 0;
+    padding: 0;
+}
+
+/* ==============================
+   MAIN SELLER WRAPPER (CENTER)
+============================== */
+
+.seller-container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 40px 45px;
+    border-radius: 18px;
+    box-shadow: 0 15px 40px rgba(10,61,98,0.18);
+}
+
+/* Titles */
+.seller-container h1,
+.seller-container h2 {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 30px;
+    font-size: 28px;
+    border-bottom: 2px solid #e6eef5;
+    padding-bottom: 14px;
+}
+
+/* Welcome text */
+.seller-welcome {
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+/* ==============================
+   DASHBOARD - ADMIN CARDS
+============================== */
+
+.seller-dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.seller-card {
+    background: linear-gradient(135deg, #0a3d62, #0b5c8a);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 28px 20px;
+    text-align: center;
+    box-shadow: 0 10px 26px rgba(10,61,98,0.35);
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.seller-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 18px 38px rgba(10,61,98,0.5);
+}
+
+.seller-card h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+}
+
+.seller-card p {
+    margin-top: 10px;
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+/* ==============================
+   FORMS (ADD PRODUCT)
+============================== */
+
+.seller-form {
+    margin-top: 20px;
+    display: grid;
+    gap: 14px;
+}
+
+.seller-form label {
+    font-weight: 600;
+    color: #333;
+    font-size: 14px;
+}
+
+.seller-form input,
+.seller-form select {
+    width: 100%;
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 14px;
+    outline: none;
+    background: #f9fbfd;
+    transition: all 0.2s;
+}
+
+.seller-form input:focus,
+.seller-form select:focus {
+    border-color: #0a3d62;
+    box-shadow: 0 0 0 3px rgba(10,61,98,0.12);
+    background: #ffffff;
+}
+
+.seller-form button {
+    margin-top: 22px;
+    padding: 14px;
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 6px 18px rgba(39,174,96,0.35);
+    transition: all 0.25s ease;
+}
+
+.seller-form button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 28px rgba(39,174,96,0.5);
+}
+
+/* ==============================
+   MY PRODUCTS - PREMIUM TABLE
+============================== */
+
+.seller-table-wrapper {
+    margin-top: 35px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 12px 32px rgba(10,61,98,0.18);
+}
+
+.seller-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.seller-table th {
+    background: linear-gradient(90deg, #0a3d62, #0b5c8a);
+    color: #ffffff;
+    padding: 15px 12px;
+    font-weight: 700;
+}
+
+.seller-table td {
+    padding: 13px 12px;
+    text-align: center;
+    background: #ffffff;
+    border-bottom: 1px solid #eee;
+}
+
+.seller-table tr:nth-child(even) td {
+    background: #f3f8fc;
+}
+
+.seller-table tr:hover td {
+    background: #e8f1f9;
+}
+
+.seller-table img {
+    width: 90px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* ==============================
+   FOOTER BUTTONS (BACK & LOGOUT)
+============================== */
+
+.seller-actions {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.seller-back,
+.seller-logout {
+    display: inline-block;
+    margin: 10px 8px;
+    text-decoration: none;
+    padding: 12px 22px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.25s ease;
+}
+
+/* Back */
+.seller-back {
+    background: #bdc3c7;
+    color: #2c3e50;
+}
+
+.seller-back:hover {
+    background: #aab3b8;
+}
+
+/* Logout */
+.seller-logout {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+    color: #ffffff;
+    box-shadow: 0 6px 18px rgba(231,76,60,0.4);
+}
+
+.seller-logout:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(231,76,60,0.6);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==============================
+   SELLER AUTH (LOGIN / REGISTER)
+============================== */
+
+.seller-auth-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #081f3a, #0a3d62);
+}
+
+.seller-auth-card {
+    width: 100%;
+    max-width: 420px;
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 35px 40px;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.25);
+    animation: fadeInUp 0.6s ease;
+}
+
+.seller-auth-title {
+    text-align: center;
+    color: #0a3d62;
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.seller-auth-card .seller-form label {
+    margin-top: 14px;
+}
+
+.seller-auth-card .seller-form input {
+    background: #f5f9ff;
+    border: 1px solid #d6e4f0;
+}
+
+.seller-auth-card .seller-form input:focus {
+    border-color: #0a3d62;
+    background: #ffffff;
+}
+
+.seller-auth-card .seller-form button {
+    width: 100%;
+    margin-top: 25px;
+    background: linear-gradient(135deg, #0a3d62, #0b5c8a);
+    box-shadow: 0 6px 16px rgba(10,61,98,0.35);
+}
+
+.seller-auth-card .seller-form button:hover {
+    background: linear-gradient(135deg, #083253, #094d78);
+}
+
+.seller-auth-footer {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+}
+
+.seller-auth-footer a {
+    color: #0a3d62;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.seller-auth-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Smooth animation */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,32 @@
+/* ===== MY ORDERS ===== */
+.orders-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.orders-table th,
+.orders-table td {
+    padding: 12px;
+    border: 1px solid #e1e1e1;
+    text-align: center;
+}
+
+.orders-table th {
+    background-color: #f1f3f6;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.orders-table tr:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.order-status {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.back-link {
+    font-weight: 600;
+}
